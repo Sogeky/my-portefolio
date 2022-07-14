@@ -40,23 +40,25 @@ body {
 
 .content {
   display: inline-block;
-  margin-top: 10%;
-  margin-left: 8%;
+  margin-top: 15%;
+  margin-left: 14%;
 }
 
 .title {
+  font-size: 45px;
   color: black;
 }
 
 .text {
+  font-size: 18px;
   padding-top: 15px;
   color: #135b7a;
 }
 
 .btn_cont {
   display: block;
-  width: 45%;
-  margin-left: 9%;
+  width: 800px;
+  margin-left: 15%;
   margin-top: 2%;
 }
 
