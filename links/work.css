@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 102, 155),
+    rgba(198, 81, 253)
+  );
+}
+.head {
+  display: inline-block;
+  width: 100%;
+  background: #273c48;
+  padding: 1.5%;
+}
+.btn {
+  display: block;
+  float: right;
+  width: 25%;
+  padding-right: 8%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn_btn {
+  color: white;
+  margin-left: 7%;
+  margin-top: 10%;
+}
+
+img {
+  display: inline;
+  width: 20%;
+  padding: 5%;
+}
