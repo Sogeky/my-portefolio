@@ -13,34 +13,42 @@ body {
   );
 }
 .head {
-  display: inline-block;
+  display: flex;
   width: 100%;
+  height: 60px;
   background: #273c48;
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
 }
 .myname {
-  display: inline-block;
-  margin-left: 5%;
+  display: inline;
+  margin-left: 7%;
+  margin-top: 1.6%;
   color: white;
 }
+.me {
+  display: inline;
+  margin-left: 2%;
+  margin-top: 0.3%;
+  width: auto;
+  height: 87%;
+  border-radius: 75px;
+}
 .btn {
-  display: block;
+  display: inline;
   float: right;
   width: 25%;
-  padding-right: 5%;
+  padding-top: 1.6%;
+  padding-left: 50%;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .btn_btn {
   color: white;
   margin-left: 7%;
-  margin-top: 10%;
 }
 
 .content {
   display: inline-block;
-  margin-top: 15%;
+  margin-top: 13%;
   margin-left: 14%;
 }
 
@@ -50,15 +58,15 @@ body {
 }
 
 .text {
-  font-size: 18px;
-  padding-top: 15px;
+  font-size: 16px;
+  padding-top: 12px;
   color: #135b7a;
 }
 
 .btn_cont {
-  display: block;
+  display: inline-block;
   width: 800px;
-  margin-left: 15%;
+  margin-left: 16%;
   margin-top: 2%;
 }
 
