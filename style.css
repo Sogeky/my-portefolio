@@ -48,31 +48,50 @@ body {
 
 .content {
   display: inline-block;
+  height: 100%;
   margin-top: 13%;
   margin-left: 14%;
+  width: 31%;
 }
 
 .title {
-  font-size: 45px;
+  font-size: 60px;
   color: black;
 }
 
 .text {
   font-size: 16px;
-  padding-top: 12px;
+  margin-top: 12px;
   color: #135b7a;
 }
-
+.chairs {
+  display: inline;
+}
+.chair1 {
+  display: inline-block;
+  margin-right: 5%;
+  margin-top: 5%;
+  width: 15%;
+  margin-bottom: 10%;
+  float: right;
+}
+.chair2 {
+  float: right;
+  display: inline-block;
+  width: 15%;
+  margin-top: 16%;
+  margin-right: 13%;
+}
 .btn_cont {
   display: inline-block;
   width: 800px;
-  margin-left: 16%;
-  margin-top: 2%;
+  margin-top: 7%;
+  margin-left: 6%;
 }
 
 .cont {
   padding-bottom: 1.5%;
-  width: 13%;
+  width: 15%;
 }
 
 .risco1 {
